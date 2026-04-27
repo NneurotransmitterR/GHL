@@ -2,7 +2,8 @@
 
 # Hebbian Learning with Global Direction
 
-[![arXiv](https://img.shields.io/badge/arXiv-2601.21367-b31b1b.svg?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2601.21367)  
+[![arXiv](https://img.shields.io/badge/arXiv-2601.21367-b31b1b.svg?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2601.21367)
+![DOI](https://img.shields.io/badge/DOI-10.1109%2FICASSP55912.2026.11464818-blue)  
 Wenjia Hua, Kejie Zhao, Luziwei Leng, Ran Cheng, Yuxin Ma, Qinghai Guo  
 **ICASSP 2026**
 
@@ -64,12 +65,12 @@ python train.py  --model FastHebb --lr_conv 5e-2 --wd_conv 1e-2 --lr 1e-4 --devi
 ## Citation
 If you find our work useful, please consider citing our paper:
 ```bibtex
-@misc{hua2026hebbianlearningglobaldirection,
-      title={Hebbian Learning with Global Direction}, 
-      author={Wenjia Hua and Kejie Zhao and Luziwei Leng and Ran Cheng and Yuxin Ma and Qinghai Guo},
-      year={2026},
-      eprint={2601.21367},
-      archivePrefix={arXiv},
-      url={https://arxiv.org/abs/2601.21367}, 
+@inproceedings{hua2026hebbianlearningglobaldirection,
+    author={Wenjia Hua and Kejie Zhao and Luziwei Leng and Ran Cheng and Yuxin Ma and Qinghai Guo},
+    booktitle={ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
+    title={Hebbian Learning with Global Direction}, 
+    year={2026},
+    pages={19542-19546},
+    doi={10.1109/ICASSP55912.2026.11464818},
 }
 ```
